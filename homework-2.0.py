@@ -2,10 +2,10 @@ from tkinter import *
 
 window = Tk()
 window.geometry("600x400")
-window.title("Версія 2")
+
 
 def click():
-    button['text'] = '8 A класу'
+    button['text'] = '8 A клас'
     button['height'] = 2
     button['width'] = 30
     button['fg'] = 'red'
