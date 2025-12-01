@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.geometry("600x400")
-window.title("Версія 1")
+window.title("Версія 2")
 
 def click():
     button['text'] = '8 A класу'
