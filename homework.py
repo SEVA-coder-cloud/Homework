@@ -1,13 +1,11 @@
 from tkinter import *
 
-
 window = Tk()
 window.geometry("600x400")
-window.title("Вправа 4.2 — Версія 2")
-
+window.title("Версія 2")
 
 def click():
-    button['text'] = 'A класу'
+    button['text'] = '8 A класу'
     button['height'] = 2
     button['width'] = 30
     button['fg'] = 'red'
@@ -20,8 +18,6 @@ button = Button(
     command=click
 )
 
-
 button.pack(pady=30)
-
 
 window.mainloop()
