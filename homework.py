@@ -3,7 +3,7 @@ from tkinter import *
 
 window = Tk()
 window.geometry("600x400")
-window.title("Вправа 4.2")
+window.title("Вправа 4.2 — Версія 2")
 
 
 def click():
@@ -12,7 +12,6 @@ def click():
     button['width'] = 30
     button['fg'] = 'red'
     button['state'] = 'disable'   
-
 
 button = Button(
     text='кнопка 1',
